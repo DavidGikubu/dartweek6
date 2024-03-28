@@ -24,4 +24,13 @@ void checkString(String value) {
   }
 }
 
+//task 4: program using a while loop to print numbers form 20 to 10
+void printNumbersDescending() {
+  int i = 20;
+  while (i >= 10) {
+    print(i);
+    i--;
+  }
+}
+
 void main(List<String> arguments) {}
