@@ -10,4 +10,18 @@ void printNumbers() {
   }
 }
 
+//task 3: program using a switch statement to check different string using values
+void checkString(String value) {
+  switch (value) {
+    case 'apple':
+      print("it is a fruit.");
+      break;
+    case 'carrot':
+      print("it is a vegetable.");
+      break;
+    default:
+      print("Unknown value.");
+  }
+}
+
 void main(List<String> arguments) {}
