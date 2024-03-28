@@ -69,4 +69,7 @@ void main(List<String> arguments) {
   // Task 1: Test the sum function
   print('Task 1:');
   print('The sum of 5 and 3 is ${sum(5, 3)}');
+  // Task 2: Print numbers from 1 to 10
+  print('\nTask 2:');
+  printNumbers();
 }
