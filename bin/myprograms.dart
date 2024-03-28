@@ -80,4 +80,8 @@ void main(List<String> arguments) {
   // Task 4: Print numbers from 20 to 10
   print('\nTask 4:');
   printNumbersDescending();
+  // Task 5: Check if a number is even or odd
+  print('\nTask 5:');
+  checkEvenOrOdd(7);
+  checkEvenOrOdd(10);
 }
