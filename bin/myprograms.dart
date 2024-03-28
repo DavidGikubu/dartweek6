@@ -84,4 +84,8 @@ void main(List<String> arguments) {
   print('\nTask 5:');
   checkEvenOrOdd(7);
   checkEvenOrOdd(10);
+  // Task 6: Find the largest number in a list
+  print('\nTask 6:');
+  List<int> numbers = [12, 45, 67, 23, 90, 5];
+  print('The largest number in the list is: ${findLargestNumber(numbers)}');
 }
