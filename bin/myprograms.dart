@@ -33,4 +33,13 @@ void printNumbersDescending() {
   }
 }
 
+//task 5: program using an if else statement to check if a number is even or odd.
+void checkEvenOrOdd(int number) {
+  if (number % 2 == 0) {
+    print("$number is even.");
+  } else {
+    print("$number is odd.");
+  }
+}
+
 void main(List<String> arguments) {}
