@@ -42,4 +42,15 @@ void checkEvenOrOdd(int number) {
   }
 }
 
+//task 6 : program to find the largest number in a list
+int findLargestNumber(List<int> numbers) {
+  int max = numbers[0];
+  for (int i = 1; i < numbers.length; i++) {
+    if (numbers[i] > max) {
+      max = numbers[i];
+    }
+  }
+  return max;
+}
+
 void main(List<String> arguments) {}
