@@ -77,4 +77,7 @@ void main(List<String> arguments) {
   checkString('apple');
   checkString('carrot');
   checkString('banana');
+  // Task 4: Print numbers from 20 to 10
+  print('\nTask 4:');
+  printNumbersDescending();
 }
