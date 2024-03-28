@@ -53,4 +53,16 @@ int findLargestNumber(List<int> numbers) {
   return max;
 }
 
+//task 7: program using a try=catch block to catch an exception and output an error message.
+void handleException() {
+  try {
+    //this will throw an exception because the list has no elements
+    List<int> emptyList = [];
+    int value = emptyList[0];
+    print(value);
+  } catch (e) {
+    print("An error occurred: $e");
+  }
+}
+
 void main(List<String> arguments) {}
