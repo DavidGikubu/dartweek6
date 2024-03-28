@@ -72,4 +72,9 @@ void main(List<String> arguments) {
   // Task 2: Print numbers from 1 to 10
   print('\nTask 2:');
   printNumbers();
+  // Task 3: Check different string values
+  print('\nTask 3:');
+  checkString('apple');
+  checkString('carrot');
+  checkString('banana');
 }
