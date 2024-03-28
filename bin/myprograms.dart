@@ -88,4 +88,7 @@ void main(List<String> arguments) {
   print('\nTask 6:');
   List<int> numbers = [12, 45, 67, 23, 90, 5];
   print('The largest number in the list is: ${findLargestNumber(numbers)}');
+  // Task 7: Handle exceptions
+  print('\nTask 7:');
+  handleException();
 }
